@@ -2,7 +2,7 @@
   "name": "finalcut",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://piyushbabhulakar12.github.io/startfinal",
+  "homepage": "https://Piyushbabhulakar12.github.io/startfinal",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.5",
