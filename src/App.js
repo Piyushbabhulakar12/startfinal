@@ -15,12 +15,12 @@ function App() {
       
       <Menu/>
       <Routes>
-        <Route path="*" exact element={<Error/>} />
+        <Route path="*" element={<Error/>} />
         <Route path="/" exact element={<Home/>} />
-        <Route path="/contact-us" exact element={<Contact/>} />
-        <Route path="/about-us" exact element={<About/>} />
-        <Route path="/cinmatic-video" exact element={<CinmaticVideo/>} />
-        <Route path="cinmaticv/:id" exact element={<Cinmaticv/>} />
+        <Route path="/contact-us" element={<Contact/>} />
+        <Route path="/about-us" element={<About/>} />
+        <Route path="/cinmatic-video" element={<CinmaticVideo/>} />
+        <Route path="cinmaticv/:id" element={<Cinmaticv/>} />
       </Routes>
       <Footer />
 
